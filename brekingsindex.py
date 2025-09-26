@@ -13,8 +13,8 @@ i = np.array([0, 2, 4, 6, 8, 10])  # graden
 N = np.array([0, 3, 12, 29, 41, 58])
 
 # Constanten
-d = 0.003      # m
-lam = 532e-9   # m, groene laser
+d = 0.003      
+lam = 532e-9   
 
 def N_model(i_deg, n):
     i_rad = np.deg2rad(i_deg)
